@@ -90,11 +90,50 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="hexo安装篇来了"><a href="#hexo安装篇来了" class="headerlink" title="hexo安装篇来了~"></a>hexo安装篇来了~</h1>
+        <h2 id="hexo安装篇来了"><a href="#hexo安装篇来了" class="headerlink" title="hexo安装篇来了~~"></a>hexo安装篇来了~~</h2><p>这是Hexo搭建博客的教程，不是最详尽的，但应该是最简单易懂的教程，嗯，一定是这样的。</p>
+<hr>
+
+<p>首先你要去下载</p>
+<ul>
+<li><a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js</a> </li>
+</ul>
+<p>判断node是否安装成功可以在命令行里输入</p>
+<p><pre>node-v</pre><br>如果出现v+数字组合表示当前的版本号，就说明你成功了</p>
+<p><hr><br>接下来要安装hexo，很简单，在命令行里输入</p>
+<p><pre>npm install hexo -g</pre><br>如果安装过程中有出现报错字样的话，可以尝试下用sudo来提升安装权限</p>
+<p><pre>sudo npm install hero -g</pre></p>
+<p><hr><br>执行成功之后在命令行里输入：</p>
+<p><pre>hexo</pre><br>可以看到hexo相关信息表示安装成功。</p>
+<p><hr><br>接下来要做的事就是新建一个文件夹，文件夹的名称随意，最好和博客相关，然后通过命令行进入该文件夹：</p>
+<p><pre>cd 你的文件夹名字</pre><br>现在文件夹是空着的</p>
+<p> 接着来初始化hexo目录和启动本地服务，输入如下命令，注意顺序：</p>
+<p><pre> hexo init<br> hexo server</pre><br> 不出什么意外的话，在<br> <pre><a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a></pre><br> 你就可以看到自己的搭建成的博客了！！恭喜恭喜！！</p>
+<p><hr><br> 但你以为这样就好了吗？当然不是，这个只是在你本地上搭建好，如果你想让别人看到，你还需要下面的东西</p>
+<ul>
+<li><p><a href="https://github.com/" target="_blank" rel="external">Github</a>的账号</p>
+<p>创建好账号之后，你需要创建一个仓库（先别管什么是仓库）</p>
+</li>
+</ul>
+<ul>
+<li><p>新建New repository</p>
+<p>如果你要用这个仓库来存放你的博客，那么仓库的名字不可以乱改，仓库名称必须是<br><pre>仓库的名称=你注册的昵称+github.io</pre><br>这里注意 一定不要写错了。</p>
+<p><hr><br>接下来要建立连接github的秘钥，配置ssh-key，在命令行中输入</p>
+<pre></pre></li>
+</ul>
+<ol>
+<li>ssh-keygen  连续三次回撤</li>
+<li>输入vim ~/.ssh/id_rsa.pub 复制ssh-key 按：p回到命令行</li>
+<li>github设置 ssh粘贴<br><hr><br>接着配置github与本地机器验证<br><pre> git config - -global user.name “”<br>git config - -global user.email “”<br></pre><br><hr><br>在博客文件夹中找到“config.yml”<br><pre> depoly中<br>type：git<br>repo：域名仓库的htts地址</pre><br><hr><br>最后在命令行中输入<br><pre>1. npm install hexo-deployer-git - -save<ol>
+<li>hexo g</li>
+<li>hexo d</li></ol></pre><br>好了，你的博客到此为止，已经搭建完成。</li>
+</ol>
+
+
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/06/22/hexo安装篇/" data-id="cipqnudkc0000yasebqbnemfe" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2016/06/22/hexo安装篇/" data-id="cipqtscqo000041se8pj3ujjh" class="article-share-link">Share</a>
       
       
     </footer>
