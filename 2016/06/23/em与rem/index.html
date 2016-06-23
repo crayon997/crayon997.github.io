@@ -3,17 +3,45 @@
 <head>
   <meta charset="utf-8">
   
-  <title>叫我的柯</title>
+  <title>em与rem | 叫我的柯</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Crayon ke">
-<meta property="og:type" content="website">
-<meta property="og:title" content="叫我的柯">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="来讲讲em与remem和rem都是相对单位，由浏览器转换为像素值，具体取决于你的设计中的字体大小设置。使用em和rem单位可以让我们的设计更加灵活，能够控制元素整体放大缩小，而不是固定大小。我们可以使用这种灵活性，使我们在开发期间，能更加快速灵活的调整，允许浏览器用户调整浏览器大小来达到最佳体验。
+
+em特点：
+
+em的值并不是固定的；
+
+em会继承父级元素的字体大小。
+
+
+当使用em单位时，像素">
+<meta property="og:type" content="article">
+<meta property="og:title" content="em与rem">
+<meta property="og:url" content="http://yoursite.com/2016/06/23/em与rem/index.html">
 <meta property="og:site_name" content="叫我的柯">
-<meta property="og:description" content="Crayon ke">
+<meta property="og:description" content="来讲讲em与remem和rem都是相对单位，由浏览器转换为像素值，具体取决于你的设计中的字体大小设置。使用em和rem单位可以让我们的设计更加灵活，能够控制元素整体放大缩小，而不是固定大小。我们可以使用这种灵活性，使我们在开发期间，能更加快速灵活的调整，允许浏览器用户调整浏览器大小来达到最佳体验。
+
+em特点：
+
+em的值并不是固定的；
+
+em会继承父级元素的字体大小。
+
+
+当使用em单位时，像素">
+<meta property="og:updated_time" content="2016-06-23T09:51:52.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="叫我的柯">
-<meta name="twitter:description" content="Crayon ke">
+<meta name="twitter:title" content="em与rem">
+<meta name="twitter:description" content="来讲讲em与remem和rem都是相对单位，由浏览器转换为像素值，具体取决于你的设计中的字体大小设置。使用em和rem单位可以让我们的设计更加灵活，能够控制元素整体放大缩小，而不是固定大小。我们可以使用这种灵活性，使我们在开发期间，能更加快速灵活的调整，允许浏览器用户调整浏览器大小来达到最佳体验。
+
+em特点：
+
+em的值并不是固定的；
+
+em会继承父级元素的字体大小。
+
+
+当使用em单位时，像素">
   
     <link rel="alternate" href="/atom.xml" title="叫我的柯" type="application/atom+xml">
   
@@ -66,9 +94,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-em与rem" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-em与rem" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2016/06/23/em与rem/" class="article-date">
   <time datetime="2016-06-23T09:22:41.000Z" itemprop="datePublished">2016-06-23</time>
@@ -81,8 +107,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/23/em与rem/">em与rem</a>
+    <h1 class="article-title" itemprop="name">
+      em与rem
     </h1>
   
 
@@ -145,85 +171,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-hexo安装篇" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/06/22/hexo安装篇/" class="article-date">
-  <time datetime="2016-06-22T09:04:07.000Z" itemprop="datePublished">2016-06-22</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/22/hexo安装篇/">hexo安装篇</a>
-    </h1>
+    <a href="/2016/06/22/hexo安装篇/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">hexo安装篇</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="hexo安装篇来了"><a href="#hexo安装篇来了" class="headerlink" title="hexo安装篇来了~~"></a>hexo安装篇来了~~</h2><p>这是Hexo搭建博客的教程，不是最详尽的，但应该是最简单易懂的教程，嗯，一定是这样的。</p>
-<hr>
-
-<p>首先你要去下载</p>
-<ul>
-<li><a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js</a> </li>
-</ul>
-<p>判断node是否安装成功可以在命令行里输入</p>
-<p><pre>node-v</pre><br>如果出现v+数字组合表示当前的版本号，就说明你成功了</p>
-<p><hr><br>接下来要安装hexo，很简单，在命令行里输入</p>
-<p><pre>npm install hexo -g</pre><br>如果安装过程中有出现报错字样的话，可以尝试下用sudo来提升安装权限</p>
-<p><pre>sudo npm install hero -g</pre></p>
-<p><hr><br>执行成功之后在命令行里输入：</p>
-<p><pre>hexo</pre><br>可以看到hexo相关信息表示安装成功。</p>
-<p><hr><br>接下来要做的事就是新建一个文件夹，文件夹的名称随意，最好和博客相关，然后通过命令行进入该文件夹：</p>
-<p><pre>cd 你的文件夹名字</pre><br>现在文件夹是空着的</p>
-<p> 接着来初始化hexo目录和启动本地服务，输入如下命令，注意顺序：</p>
-<p><pre> hexo init<br> hexo server</pre><br> 不出什么意外的话，在<br> <pre><a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a></pre><br> 你就可以看到自己的搭建成的博客了！！恭喜恭喜！！</p>
-<p><hr><br> 但你以为这样就好了吗？当然不是，这个只是在你本地上搭建好，如果你想让别人看到，你还需要下面的东西</p>
-<ul>
-<li><p><a href="https://github.com/" target="_blank" rel="external">Github</a>的账号</p>
-<p>创建好账号之后，你需要创建一个仓库（先别管什么是仓库）</p>
-</li>
-</ul>
-<ul>
-<li><p>新建New repository</p>
-<p>如果你要用这个仓库来存放你的博客，那么仓库的名字不可以乱改，仓库名称必须是<br><pre>仓库的名称=你注册的昵称+github.io</pre><br>这里注意 一定不要写错了。</p>
-<p><hr><br>接下来要建立连接github的秘钥，配置ssh-key，在命令行中输入</p>
-<pre></pre></li>
-</ul>
-<ol>
-<li>ssh-keygen  连续三次回撤</li>
-<li>输入vim ~/.ssh/id_rsa.pub 复制ssh-key 按：p回到命令行</li>
-<li>github设置 ssh粘贴<br><hr><br>接着配置github与本地机器验证<br><pre> git config - -global user.name “”<br>git config - -global user.email “”<br></pre><br><hr><br>在博客文件夹中找到“config.yml”<br><pre> depoly中<br>type：git<br>repo：域名仓库的htts地址</pre><br><hr><br>最后在命令行中输入<br><pre>1. npm install hexo-deployer-git - -save<ol>
-<li>hexo g</li>
-<li>hexo d</li></ol></pre><br>好了，你的博客到此为止，已经搭建完成。</li>
-</ol>
-
-
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/06/22/hexo安装篇/" data-id="cips4qjqc000114se7l72hkrt" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-  
 
 </section>
         
