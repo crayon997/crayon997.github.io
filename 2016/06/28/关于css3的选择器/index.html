@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    
+
+    <title>
+      关于css3的选择器 | 叫我的柯 
+    </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+      <meta name="author" content="柯奉甫">
+    
+    
+
+    <meta name="description" content="今天说css3的编辑器
+
+子元素选择器在选择后代元素时候，你不想选择任意的后代元素，而是想只选某个元素的子元素，就可以用子元素选择器。
+例如，你只希望选择div元素中的div元素，可以这么写：
+div &amp;gt; div这个规则就会只选中第一个div下的div，其他的不受影响
+ 兄弟选择器可以分为2种
+相邻兄弟选择器样式：E + F1.必须是同级2.必须相邻3.必须在下方4.有且只有一个
+通用兄弟选">
+<meta property="og:type" content="article">
+<meta property="og:title" content="关于css3的选择器 | 叫我的柯">
+<meta property="og:url" content="http://yoursite.com/2016/06/28/关于css3的选择器/index.html">
+<meta property="og:site_name" content="叫我的柯">
+<meta property="og:description" content="今天说css3的编辑器
+
+子元素选择器在选择后代元素时候，你不想选择任意的后代元素，而是想只选某个元素的子元素，就可以用子元素选择器。
+例如，你只希望选择div元素中的div元素，可以这么写：
+div &amp;gt; div这个规则就会只选中第一个div下的div，其他的不受影响
+ 兄弟选择器可以分为2种
+相邻兄弟选择器样式：E + F1.必须是同级2.必须相邻3.必须在下方4.有且只有一个
+通用兄弟选">
+<meta property="og:updated_time" content="2016-06-28T12:29:22.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="关于css3的选择器 | 叫我的柯">
+<meta name="twitter:description" content="今天说css3的编辑器
+
+子元素选择器在选择后代元素时候，你不想选择任意的后代元素，而是想只选某个元素的子元素，就可以用子元素选择器。
+例如，你只希望选择div元素中的div元素，可以这么写：
+div &amp;gt; div这个规则就会只选中第一个div下的div，其他的不受影响
+ 兄弟选择器可以分为2种
+相邻兄弟选择器样式：E + F1.必须是同级2.必须相邻3.必须在下方4.有且只有一个
+通用兄弟选">
+    
+    
+    
+      <link rel="icon" type="image/x-icon" href="/favicon.png">
+    
+    <link rel="stylesheet" href="/css/uno.css">
+    <link rel="stylesheet" href="/css/highlight.css">
+    <link rel="stylesheet" href="/css/archive.css">
+    <link rel="stylesheet" href="/css/china-social-icon.css">
+
+</head>
+<body>
+
+    <span class="mobile btn-mobile-menu">
+        <i class="icon icon-list btn-mobile-menu__icon"></i>
+        <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+    </span>
+
+    
+
+<header class="panel-cover panel-cover--collapsed">
+
+
+  <div class="panel-main">
+
+  
+    <div class="panel-main__inner panel-inverted">
+    <div class="panel-main__content">
+
+        
+
+        <h1 class="panel-cover__title panel-title"><a href="/" title="link to homepage">叫我的柯</a></h1>
+        <hr class="panel-cover__divider" />
+
+        
+        <p class="panel-cover__description">
+          一个敲代码boy的日常
+        </p>
+        <hr class="panel-cover__divider panel-cover__divider--secondary" />
+        
+
+        <div class="navigation-wrapper">
+
+          <nav class="cover-navigation cover-navigation--primary">
+            <ul class="navigation">
+
+              
+                
+                <li class="navigation__item"><a href="/#blog" title="" class="blog-button">首页</a></li>
+              
+                
+                <li class="navigation__item"><a href="/about" title="" class="">关于</a></li>
+              
+                
+                <li class="navigation__item"><a href="/archive" title="" class="">归档</a></li>
+              
+
+            </ul>
+          </nav>
+
+          <!-- ----------------------------
+To add a new social icon simply duplicate one of the list items from below
+and change the class in the <i> tag to match the desired social network
+and then add your link to the <a>. Here is a full list of social network
+classes that you can use:
+
+    icon-social-500px
+    icon-social-behance
+    icon-social-delicious
+    icon-social-designer-news
+    icon-social-deviant-art
+    icon-social-digg
+    icon-social-dribbble
+    icon-social-facebook
+    icon-social-flickr
+    icon-social-forrst
+    icon-social-foursquare
+    icon-social-github
+    icon-social-google-plus
+    icon-social-hi5
+    icon-social-instagram
+    icon-social-lastfm
+    icon-social-linkedin
+    icon-social-medium
+    icon-social-myspace
+    icon-social-path
+    icon-social-pinterest
+    icon-social-rdio
+    icon-social-reddit
+    icon-social-skype
+    icon-social-spotify
+    icon-social-stack-overflow
+    icon-social-steam
+    icon-social-stumbleupon
+    icon-social-treehouse
+    icon-social-tumblr
+    icon-social-twitter
+    icon-social-vimeo
+    icon-social-xbox
+    icon-social-yelp
+    icon-social-youtube
+    icon-social-zerply
+    icon-mail
+
+-------------------------------->
+
+<!-- add social info here -->
+
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="panel-cover--overlay"></div>
+  </div>
+</header>
+
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner entry">
+            
+
+<article class="post-container post-container--single">
+
+  <header class="post-header">
+    
+    <h1 class="post-title">关于css3的选择器</h1>
+
+    
+
+    <div class="post-meta">
+      <time datetime="2016-06-28" class="post-meta__date date">2016-06-28</time> 
+
+      <span class="post-meta__tags tags">
+
+          
+
+          
+
+      </span>
+    </div>
+    
+    
+
+  </header>
+
+  <section id="post-content" class="article-content post">
+    <p>今天说css3的编辑器</p>
+<p><hr></p>
+<h4 id="子元素选择器"><a href="#子元素选择器" class="headerlink" title="子元素选择器"></a>子元素选择器</h4><p>在选择后代元素时候，你不想选择任意的后代元素，而是想只选某个元素的子元素，就可以用子元素选择器。</p>
+<p>例如，你只希望选择div元素中的div元素，可以这么写：</p>
+<p><pre>div &gt; div</pre><br>这个规则就会只选中第一个div下的div，其他的不受影响</p>
+<p><hr><br> 兄弟选择器可以分为2种</p>
+<h4 id="相邻兄弟选择器"><a href="#相邻兄弟选择器" class="headerlink" title="相邻兄弟选择器"></a>相邻兄弟选择器</h4><p><pre>样式：E + F<br>1.必须是同级<br>2.必须相邻<br>3.必须在下方<br>4.有且只有一个</pre></p>
+<h4 id="通用兄弟选择器"><a href="#通用兄弟选择器" class="headerlink" title="通用兄弟选择器"></a>通用兄弟选择器</h4><p><pre>样式：E ~ F<br>1.必须是同级<br>2.必须在下方<br>3.可以选择多个</pre></p>
+<p><hr></p>
+<h4 id="属性选择器"><a href="#属性选择器" class="headerlink" title="属性选择器"></a>属性选择器</h4><p>属性选择器可以根据元素的属性及属性值来选择元素。</p>
+<p><pre>E[attr]<br>E[attr=“value”]<br>E[attr~=“value”] ~：表示几个以空格隔开的属性值中包含了“value”<br>E[attr^=“value”] ^:以value开头的值<br>E[attr$=“value”] $:以value结尾的值<br>E[attr<em>=“value”] </em>：包含了value的值<br>E[attr|=“value”] |: 以value或value-开头</pre></p>
+<p>E[attr=”value”]和E[attr*=”value”]是最实用的</p>
+<p><hr></p>
+<h4 id="伪类选择器"><a href="#伪类选择器" class="headerlink" title="伪类选择器"></a>伪类选择器</h4><p> CSS 伪类用于向某些选择器添加特殊的效果。和大家简单总结下几种，然后我们把重心放在css3新增的“nth-child”选择器的使用方法。</p>
+<p> 废弃状态触发，input元素必须要有disable属性<br> <pre>input:disabled{  }<br>input:checked{  }</pre><br>可用的表单元素状态 默认 ；与disabled相反<br> <pre>input:enabled{  }</pre></p>
+<p><hr></p>
+<h4 id="否定选择器"><a href="#否定选择器" class="headerlink" title="否定选择器"></a>否定选择器</h4><p>not（）通常配合属性选择器使用。例如：</p>
+<p><pre>input:not([type=”submit”]){  }</pre></p>
+<p><hr></p>
+<h4 id="nth选择器"><a href="#nth选择器" class="headerlink" title="nth选择器"></a>nth选择器</h4><p>这节内容才是关键，也是CSS3选择器最新部分，有人也称这种选择器为CSS3结构类，下面我们通过实际的应用来具体了解他们的使用和区别，首先列出他具有的选择方法：</p>
+<p><pre>1.:fist-child选择某个元素的第一个子元素；<br>2.:last-child选择某个元素的最后一个子元素；<br>3.:nth-child()选择某个元素的一个或多个特定的子元素；<br>4.:nth-last-child()选择某个元素的一个或多个特定的子元素，从这个元素的最后一个子元素开始算；<br>5.:nth-of-type()选择指定的元素；<br>6.:nth-last-of-type()选择指定的元素，从元素的最后一个开始计算；<br>7.:first-of-type选择一个上级元素下的第一个同类子元素；<br>8.:last-of-type选择一个上级元素的最后一个同类子元素；<br>9.:only-child选择的元素是它的父元素的唯一一个了元素；<br>10.:only-of-type选择一个元素是它的上级元素的唯一一个相同类型的子元素；<br>11.:empty选择的元素里面没有任何内容。</pre><br>至于（）的参数可以这样理解:</p>
+<p><pre><br>:nth-child()选择某个元素的一个或多个特定的子元素；<br>:nth-child(length);/<em>参数是具体数字</em>/<br>:nth-child(n);/<em>参数是n,n从1开始计算</em>/<br>:nth-child(2n); /<em>n的倍数选择，n从1开始算</em>/<br>:nth-child(n+length); /<em>选择大于length后面的元素</em>/<br>:nth-child(-n+length); /<em>选择小于length前面的元素</em>/<br>:nth-child(2n+1); /<em>表示隔几选一</em>/ odd even</pre></p>
+<p><hr></p>
+<h4 id="伪元素"><a href="#伪元素" class="headerlink" title="伪元素"></a>伪元素</h4><p>伪元素是用于向某些选择器设置特殊效果。</p>
+<p><pre>::first-letter</pre>选择文本块的第一个字母，除非在同一行里面包含一些其它元素，不过这个主要运用于段落排版上多</p>
+<p><pre>::first-line</pre>选择元素的第一行</p>
+<p><pre>::before , ::after</pre> 这两个主要用来给元素的前面或后面插入内容，这两个常用”content”配合使用，见过最多的就是清除浮动还有图片icon</p>
+<p><pre>::selection</pre>用来改变浏览网页选中文本的默认效果，“::selection”来改变在浏览器中选中文本后的背景色与前景色。::selection在IE家族中，只有IE9+版本支持，在Firefox中需要加上其前缀“-moz”，:“::selection”只能设置两个属性，一个就是background,另一个就是color属性，设置其他属性是没有任何效果的。</p>
+
+  </section>
+
+  
+  
+</article>
+
+
+            <footer class="footer">
+
+    <span class="footer__copyright">&copy; 2014-2015. | 由<a href="https://hexo.io/">Hexo</a>强力驱动 | 主题<a href="https://github.com/someus/huno">Huno</a></span>
+    
+</footer>
+        </div>
+    </div>
+
+    <!-- js files -->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/scale.fix.js"></script>
+    
+
+    
+
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript"> 
+        $(document).ready(function(){
+            MathJax.Hub.Config({ 
+                tex2jax: {inlineMath: [['[latex]','[/latex]'], ['\\(','\\)']]} 
+            });
+        });
+    </script>
+
+
+    
+
+    <script src="/js/awesome-toc.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $.awesome_toc({
+                overlay: true,
+                contentId: "post-content",
+            });
+        });
+    </script>
+
+
+    
+    
+    <!--kill ie6 -->
+<!--[if IE 6]>
+  <script src="//letskillie6.googlecode.com/svn/trunk/2/zh_CN.js"></script>
+<![endif]-->
+
+</body>
+</html>
